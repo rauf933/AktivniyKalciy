@@ -1,0 +1,108 @@
+
+
+.container-title-form {
+	top: 0%;
+    left: 5%;
+}
+
+.container-title-form .top-title{
+	clip-path: polygon(9% 16%, 97% 37%, 100% 100%, 0% 100%);
+	-webkit-clip-path: polygon(9% 16%, 97% 37%, 100% 100%, 0% 100%);
+	background-color: #12aaf1;
+	z-index: 3;
+	top: 40%;
+	padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    width: 200px;
+}
+
+.container-title-form .mid-title{
+	-webkit-clip-path: polygon(0 0, 100% 0, 94% 63%, 8% 71%);
+clip-path: polygon(0 0, 100% 0, 94% 63%, 8% 71%);
+	background-color: #3a08bd;
+	padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    z-index: 2;
+    top: 10px;
+    left: 20px;
+    width: 200px;
+}
+
+.sect-form-blck textarea[name='name'],
+.sect-form-blck textarea[name='email']{
+	border:none;
+	outline: none;
+	padding: 3px!important;
+	color:#8b8b8c;
+	background-color: transparent;
+	border-bottom:1px solid #000;
+	width: 40%;
+}
+
+.sect-form-blck textarea{
+	resize: none;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	padding: 20px 3px 70px;
+	margin-left:10px;
+	width: 100%;
+	color:#8b8b8c;
+	border-bottom:1px solid #000;
+}
+
+.sect-form-blck button{
+	border: none;
+	outline: none;
+	background-color: #3a08bd;
+	color:#fff;
+	padding: 3px 60px;
+	display: block;
+}
+
+.sect-form-blck textarea:-moz-placeholder { color: #8b8b8c; }
+.sect-form-blck textarea::-webkit-input-placeholder { color: #8b8b8c; }
+
+
+/*-------media screen----*/
+
+@media screen and (max-width: 445px){
+
+	.container-title-form .top-title, .container-title-form .mid-title{
+		font-size: 1.2rem!important;
+    	width: 150px!important;
+	}
+
+	.container-title-form .mid-title{
+		top:15px!important;
+	}
+}
+
+@media screen and (max-width: 380px){
+
+	.cont-title{
+		width:200px!important;
+	}
+
+
+	.sect-form-blck .container-title-form .mid-title{
+		top:30px!important;
+	}
+
+	.cont-title{
+		padding: 20px 0px!important;
+	}
+
+	.sect-form-blck .cont-form{
+		padding-top: 80px!important;
+	}
+
+
+	.site-brand .picter-container{
+		width:60%!important;
+	}
+
+}
+

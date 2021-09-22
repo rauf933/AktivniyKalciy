@@ -1,0 +1,206 @@
+@media screen and (max-width: 1125px){
+
+	.select-language{
+		width:75%;
+	}
+	
+	.dropdown-select{
+		width: 55%;
+		right: -7px;
+		top: 28px;
+	}
+
+	.block-drop-down .dropdown-select{
+		width: 75%;
+    	left: 0px;
+    	top: 30px;
+	}
+}
+
+
+
+@media screen and (max-width: 1000px){
+
+	.right-navbar{
+		display: none!important;
+	}
+
+	.wrap-burger{
+		display: block;
+	}
+}
+
+
+
+@media screen and (max-width: 840px){
+
+	.mid-foot-blck li a, footer .item-download a, .list-links-instruction li{
+		font-size:.9rem;
+	}
+
+	footer .item-download{
+		width: 180px;
+	}
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+	.cont-pic-logo{
+		margin: 0 auto;
+	}
+
+	.mid-foot-blck {
+		padding-top: 20px;
+	}
+
+	.mid-foot-blck ul{
+		padding-left:0px!important;
+	}
+
+	.social-icon-links{
+		width:50%;
+	}
+
+	.social-icon-block{
+		margin-top:20px!important;
+	}
+
+	.item-download{
+		margin: 10px 0px!important;
+	}
+
+	.links-download{
+		margin-top:20px;
+	}
+
+	.product-picter-block .cont-title{
+		width: 20%;
+	}
+
+	.product-picter-block{
+		padding: 0;
+	}
+
+	.block-wrap-links, .descript-product{
+		margin-right:0!important;
+		margin-left:0!important;
+	}
+
+	.text-description{
+		padding-left:10px!important;
+	}
+
+	.burger-menu-container{
+		margin-left: 95%!important;
+	}
+}
+
+@media screen and (max-width: 550px){
+	.modal-window-certificate .top-title{
+		font-size: 1.3rem;
+    	width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 445px){
+
+	.social-icon-links{
+		width:70%;
+	}
+
+	.text-description{
+		padding: 0 20px!important;
+		
+	}
+
+	.text-description p{
+		text-align: center!important;
+	}
+
+	.modal-window-certificate .top-title{
+		font-size: 1.1rem;
+    	width: 80%;
+	}
+
+	.modal-window-certificate .text-modal, .modal-window-certificate li{
+		font-size:.9rem!important;
+	}
+
+	.container-resoult a, .block-drop-down ul li a{
+		font-size: .8rem;
+	}
+
+	
+}
+
+@media screen and (max-width: 380px){
+
+	.social-icon-links{
+		width:80%!important;
+	}
+
+	.site-brand .picter-container{
+		width:60%!important;
+	}
+
+	.cont-pic-logo{
+		padding-left: 0px; 
+	}
+
+	footer{
+		padding: 10px;
+	}
+
+	.site-title-clip{
+		left:50%!important;
+	}
+
+	.icon-pict-title{
+		width:40px!important;
+		height:40px!important;
+	}
+
+	.product-picter-block .cont-title{
+		width:auto!important;
+	}
+
+	.modal-window-certificate .top-title{
+		font-size: .9rem;
+    	width: 75%;
+	}
+
+	.modal-window-certificate .text-modal, .modal-window-certificate li{
+		font-size:.8rem!important;
+	}
+
+	.container-resoult a{
+		font-size: .7rem;
+	}
+
+	.nav-header{
+		height: auto;
+	}
+
+	.item-address p {
+    	font-size: .7rem!important;
+	}
+
+}
+
+
+
+@media screen and (max-width: 320px){
+	
+	.site-title-clip{
+		left: 45%;
+	}
+	.social-icon-links{
+		width:100%!important;
+	}
+
+}
+
